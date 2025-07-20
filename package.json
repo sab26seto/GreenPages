@@ -1,7 +1,7 @@
 {
   "name": "green-pages",
   "version": "0.1.0",
-  "homepage": "https://sab26seto.github.io/GreenPages/",
+  "homepage": "https://sab26seto.github.io/GreenPages",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
