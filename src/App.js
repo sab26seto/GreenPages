@@ -116,6 +116,7 @@ const App = () => {
           header: true,
           skipEmptyLines: true,
           complete: (results) => {
+            console.log("Parsed data:", results.data);//temporary
             setBooks(results.data);
           },
         });
