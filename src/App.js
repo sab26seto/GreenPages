@@ -109,7 +109,7 @@ const App = () => {
   const t = translations[language];
 
   useEffect(() => {
-    fetch("books.csv")
+    fetch(`${process.env.PUBLIC_URL}/books.csv`)
       .then((res) => res.text())
       .then((csv) => {
         Papa.parse(csv, {
